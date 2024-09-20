@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  GCP_PROJECT_ID: "taro-demo"
+  SPANNER_INSTANCE_ID: "cafe-db"
+  SPANNER_DATABASE_ID: "cafe"
